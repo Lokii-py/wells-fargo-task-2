@@ -31,7 +31,7 @@ public class Security {
     @JoinColumn(name = "portfolioId")
     private Portfolio portfolio;
 
-    public Security() {
+    protected Security() {
     }
 
     public Security(Portfolio portfolio, int quantity, LocalDate purchaseDate, double purchasePrice, String category, String name) {

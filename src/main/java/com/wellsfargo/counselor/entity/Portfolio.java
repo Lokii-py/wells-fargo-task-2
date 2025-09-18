@@ -19,7 +19,7 @@ public class Portfolio {
     @JoinColumn(name = "ClientId")
     private Client client;
 
-    public Portfolio() {
+    protected Portfolio() {
     }
 
     public Portfolio(LocalDate creationDate, Client client) {

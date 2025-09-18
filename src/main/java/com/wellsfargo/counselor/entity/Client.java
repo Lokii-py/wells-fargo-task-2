@@ -28,7 +28,7 @@ public class Client {
     @JoinColumn(name = "advisorId")
     private Advisor advisor;
 
-    public Client() {
+    protected Client() {
     }
 
     public Client(String firstName, String lastName, String address, String email, String phone, Advisor advisor) {
